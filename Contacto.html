@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <img src="./Img/logo babuina.png" alt="Cerveza Babuina" />
+    <form>
+      <label for="nombre">Nombre</label>
+      <br />
+      <input
+        required
+        placeholder="Ingrese su Nombre"
+        id="nombre"
+        type="text"
+        name="nombre"
+      />
+      <br />
+      <label for="apellido">Apellido</label>
+      <br />
+      <input
+        required
+        placeholder="Ingrese su Apellido"
+        id="apellido"
+        type="text"
+        name="Apellido"
+      />
+      <br />
+      <label for="email">Mail</label>
+      <br />
+      <input required placeholder="Ingrese su Mail" type="email" name="email" />
+      <br />
+      <br />
+
+      <p>¿Ya probaste nuestra cerveza?</p>
+      <div>
+        <br />
+        <input type="radio" name="Probaste" value="probo" id="Si" />
+        <label for="Probaste">Obvio</label>
+
+        <input type="radio" name="Probaste" value="No probo" id="No" />
+        <label for="Probaste">Ire al infierno</label>
+      </div>
+      <br />
+      <hr />
+      <br />
+
+      <legend>Sobre que tema quisieras realizarnos una consulta</legend>
+      <br />
+      <select name="consulta" id="consulta">
+        <option value="Estilos">Estilos de cerveza</option>
+        <option value="Especiales">Cervezas Gourmet</option>
+        <option value="Babuina House">Bar</option>
+        <option value="Fábrica">Fábrica</option>
+        <option value="Experiencia Babuina">Experiencia Babuina</option>
+        <option value="Contactarnos">Contacto</option>
+        <option value="Contactarnos">Franquicias</option>
+        <br />
+      </select>
+      <br />
+      <br />
+
+      <label for="comentario">Dejanos tu comentario</label>
+      <br />
+      <br />
+      <textarea rows="4" cols="42"></textarea>
+
+      <br />
+
+      <input type="submit" value="Enviar datos" />
+      <input type="reset" value="Limpiar datos" />
+      <br />
+      <br />
+    </form>
+  </body>
+</html>

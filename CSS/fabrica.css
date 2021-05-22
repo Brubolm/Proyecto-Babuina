@@ -1,0 +1,17 @@
+/*RESETEAR ESTIOS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+/*ESTILOS GENERALES*/
+body {
+  background-image: url(../img/dark_wood.png);
+  display: grid;
+  grid-template-rows: auto 1fr 1fr auto;
+  font-family: "Antonio", sans-serif;
+  /* gap: 10px; */
+  justify-content: center;
+  align-items: center;
+}

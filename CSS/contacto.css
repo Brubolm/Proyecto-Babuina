@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Antonio", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  background-image: url(../Img/dark_wood.png);
+  width: 30vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+body fieldset form input {
+  text-align: center;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin: 20px;
+}
