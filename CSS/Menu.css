@@ -5,12 +5,14 @@
   /* background-color: cornflowerblue; */
   margin: 5px;
   text-align: center;
+  text-decoration: none;
 }
 
 .menu__desplegable {
   display: flex;
   padding: 10px 5px;
   font-size: 20px;
+  text-decoration: none;
 }
 .menu__desplegable ul {
   display: flex;
@@ -19,6 +21,7 @@
   justify-content: center;
   text-align: center;
   list-style: none;
+  text-decoration: none;
 }
 .menu__desplegable a {
   text-decoration: none;
