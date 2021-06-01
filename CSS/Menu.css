@@ -1,4 +1,8 @@
 /*@@@@@@@@@@@@@@@@@@@@ HEADER @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+* {
+  font-family: "Antonio", sans-serif !important;
+}
 .menu {
   display: flex;
   justify-content: center;
