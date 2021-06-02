@@ -195,7 +195,7 @@ body {
 }
 
 /*@@@@@@@@@@@@@@@@@@@@CARDS@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-h2 {
+.descubrinos {
   text-align: center;
   color: goldenrod;
   font-size: 4rem;
@@ -205,9 +205,8 @@ h2 {
   justify-content: center;
 }
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem; */
   height: 100%;
   width: 100%;
   padding: 2rem 5rem;
@@ -249,8 +248,9 @@ h2 {
   width: 100%;
   margin-top: 15px;
   border-radius: 5% 5% 5% 5%;
-
-  height: 19vw;
+  min-width: 80vw;
+  max-height: 400px;
+  height: 100vw;
   object-fit: cover;
 }
 
