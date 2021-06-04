@@ -42,13 +42,16 @@ body {
   text-align: right;
   list-style: none;
   grid-template-areas:
-    "titulo titulo titulo"
     "slide1 slide2 slide3"
     "slide4 slide5 slide6";
 }
 .slidebar__titulo {
-  grid-area: titulo;
-  font-size: 4rem;
+  font-size: 7rem;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 10px 10px;
+  justify-content: center;
   text-align: center;
   color: goldenrod;
   text-transform: uppercase;
@@ -58,6 +61,7 @@ body {
   -webkit-font-smoothing: antialiased;
   /*ANIMACION TITULO */
   animation: text-flicker-in-glow 4s linear both;
+  list-style-type: none;
 }
 
 @keyframes text-flicker-in-glow {
@@ -284,7 +288,7 @@ h2 {
 }
 
 /* @@@@ MEDIAS QUERIES @@@@ */
-/* 
+
 @media screen and (max-width: 768px) {
   .slidebar__container {
     display: grid;
@@ -302,4 +306,4 @@ h2 {
       "slide3 slide4"
       "slide5 slide6";
   }
-} */
+}

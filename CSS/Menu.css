@@ -6,6 +6,7 @@
 .menu {
   display: flex;
   justify-content: center;
+  align-items: center;
   /* background-color: cornflowerblue; */
   margin: 5px;
   text-align: center;
@@ -14,9 +15,10 @@
 
 .menu__desplegable {
   display: flex;
-  padding: 10px 5px;
+  padding: 10px 5px 0 0px;
   font-size: 20px;
   text-decoration: none;
+  margin: 0;
 }
 .menu__desplegable ul {
   display: flex;
@@ -26,6 +28,7 @@
   text-align: center;
   list-style: none;
   text-decoration: none;
+  padding: 0;
 }
 .menu__desplegable a {
   text-decoration: none;
@@ -57,6 +60,12 @@
   }
 }
 
+.menu__desplegable .btn-dark:hover {
+  animation: blink 0.4s;
+  color: goldenrod;
+  background-color: transparent;
+}
+
 .menu img {
   width: 30px;
   height: 30px;
@@ -65,7 +74,7 @@
 
 /*SEPARADOR DE GRID*/
 .linea__separadora {
-  margin: 20px auto;
+  margin: 10px auto;
   width: 50%;
   border: 0;
   height: 1px;
@@ -89,4 +98,69 @@
     rgba(0, 0, 0, 0.75),
     rgba(255, 255, 255, 0)
   );
+}
+/* BOTON CONTACTO DESPLEGABLE */
+.btn-dark {
+  text-decoration: none;
+  display: flex;
+  color: goldenrod;
+  text-shadow: 3px 3px 5px black;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 10px;
+}
+/*  menu desplegable */
+
+.dropdown img {
+  /* background-image: url(../Img/LOGO\ BABUINA\ SOLO\ FONDO\ NEGRO.png); */
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+
+  /* width: 50px; */
+  /* padding: 10; */
+  /* margin: 0; */
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+.dropdown-menu {
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+.dropdown-menu li {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.dropdown-menu li:hover {
+  background-color: hsl(0, 0%, 50%, 0.5);
+}
+.dropdown-item {
+  padding: 0;
+}
+.dropdown a {
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+  .menu__desplegable {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .dropdown {
+    display: none;
+  }
 }

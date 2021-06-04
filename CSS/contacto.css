@@ -3,13 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+/* POP UP */
+.body-contacto {
   font-family: "Antonio", sans-serif !important;
   color: white;
   font-size: 1.2rem;
   background-image: url(../Img/dark_wood.png);
-
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -17,10 +16,10 @@ body {
   flex-direction: column;
   margin: auto;
   gap: 1rem;
+  margin: 15px;
 }
 
 form {
-  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,12 +29,12 @@ body fieldset form input {
   text-align: center;
 }
 
-img {
+.logo-contacto {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
-  margin: 20px;
+  width: 40%;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -55,4 +54,73 @@ input[type="text"]::placeholder {
 .mb-3 {
   width: inherit;
   width: 300px;
+}
+
+/* DESPLEGABLE */
+.offcanvas-header {
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+.offcanvas {
+  background-image: url(../Img/dark_wood.png);
+}
+
+.offcanvas-body {
+  margin: 0;
+  padding: 0;
+}
+.body-contacto2 {
+  font-family: "Antonio", sans-serif !important;
+  color: white;
+  font-size: 1.2rem;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body fieldset form input {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* Centrar placeholder */
+input[type="text"]::placeholder {
+  text-align: center;
+}
+
+.probaste2 {
+  width: 60%;
+  margin: 10px;
+}
+
+.mb-3 {
+  width: inherit;
+  width: 300px;
+}
+
+.titulo-contacto-desplegable {
+  text-align: center;
+  color: goldenrod;
+  font-size: 3rem;
+  margin: 1rem;
+  padding: 0;
+
+  text-shadow: 3px 3px 5px black;
+  display: flex;
+  justify-content: center;
 }
