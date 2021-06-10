@@ -2,11 +2,9 @@
 
 .footer {
   display: flex;
-
   align-items: center;
   justify-content: center;
   padding: 10px 0 0 0;
-
   background-image: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
@@ -14,9 +12,7 @@
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 1)
   );
-  display: flex;
-
-  color: rgb(218, 165, 32, 0.5);
+  color: rgba(218, 165, 32, 0.5);
   text-shadow: 3px 3px 5px black;
   text-align: center;
 }
@@ -26,7 +22,7 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  color: rgb(218, 165, 32, 0.5);
+  color: rgba(218, 165, 32, 0.5);
   text-shadow: 3px 3px 5px black;
   text-align: center;
 }

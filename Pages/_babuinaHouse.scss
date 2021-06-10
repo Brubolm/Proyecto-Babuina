@@ -1,0 +1,230 @@
+/*ESTILOS GENERALES*/
+.babuina-house {
+  display: grid;
+  grid-template-rows: auto 1.5fr 1fr auto;
+  font-family: "Antonio", sans-serif;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@ SLIDE BAR  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ TITULO  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.slider {
+  display: grid;
+  height: 100vh;
+  place-items: center center;
+}
+.slider__titulo {
+  display: grid;
+  padding: 10px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+  text-shadow: #000 0px 0px 0px 40px;
+  -webkit-font-smoothing: antialiased;
+  /*ANIMACION TITULO */
+  animation: text-flicker-in-glow 4s linear both;
+}
+.slider__titulo--titulo {
+  font-size: 7rem;
+  color: goldenrod;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+/*EFECTO TITULO*/
+@keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+  }
+  30.5% {
+    opacity: 1;
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    text-shadow: 0 0 18px rgba(255, 255, 255, 0);
+    opacity: 0%;
+  }
+
+  100% {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+  }
+}
+/*TARJETAS*/
+
+.slider__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  gap: 40px;
+
+  &__cards {
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    background: url(../Img/Patterns/binding_dark.png);
+  }
+
+  &__container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+  img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+  a {
+    text-decoration: none;
+    color: goldenrod;
+    text-shadow: 3px 3px 5px black;
+    transform: translateY(-20px);
+    font-size: 1.25rem;
+  }
+}
+
+.slider__cards__cards__container--descripcion {
+  padding: 20px 10px;
+  h3 {
+    color: goldenrod;
+    text-shadow: 3px 3px 5px black;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 10px;
+    padding-right: 10px;
+  }
+  p {
+    color: goldenrod;
+    text-shadow: 3px 3px 5px black;
+    transform: translateY(-20px);
+    font-size: 1.25rem;
+  }
+}
+
+/*@@@@@@ MAPA @@@@@@ */
+
+.ubicacion__bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.ubicacion__bar__mapa {
+  box-shadow: 0px 0px 100px 20px black;
+}
+h2 {
+  text-align: center;
+  color: rgba(201, 199, 199, 1);
+  font-size: 2rem;
+  margin: 2rem;
+  text-shadow: 3px 3px 5px black;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@  MEDIA QUERIES  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/

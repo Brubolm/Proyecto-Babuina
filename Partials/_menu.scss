@@ -1,0 +1,184 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@  HEADER  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@  MENU DESPLIEGUE LATERAL  @@@@@@@@@@@@@@@@@@@@@@@@@*/
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: cornflowerblue; */
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+
+  &__large {
+    display: flex;
+    padding: 10px 5px 0 0px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      list-style: none;
+      text-decoration: none;
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+      margin: 0px 10px;
+      display: flex;
+      color: goldenrod;
+      text-shadow: 3px 3px 5px black;
+      cursor: pointer;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }
+}
+/*BOTON QUE TITILA AL HACER HOVER*/
+.menu__large a:hover {
+  animation: blink 0.4s;
+}
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+/*BOTON DE CONTACTO */
+.menu__large .btn-dark:hover {
+  animation: blink 0.4s;
+  color: goldenrod;
+  border-color: transparent;
+  background-color: transparent;
+}
+/* MODIFICACION PARA PISAR PROPIEDADES DE BS*/
+.btn-dark:focus {
+  color: goldenrod;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0);
+}
+.btn-dark:active,
+.show > .btn-dark.dropdown-toggle {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-check:active + .btn-dark:focus,
+.btn-check:checked + .btn-dark:focus,
+.btn-dark.active:focus,
+.btn-dark:active:focus,
+.show > .btn-dark.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0rem rgba(66, 70, 73, 0.5);
+}
+
+/*SEPARADOR DE GRID*/
+.linea__separadora {
+  margin: 10px auto;
+  width: 50%;
+  border: 0;
+  height: 1px;
+
+  /*LINEA CON GRADIENTE*/
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}
+.linea__separadora2 {
+  margin: 5px auto;
+  width: 50%;
+  border: 0;
+  height: 1px;
+  /*LINEA CON GRADIENTE*/
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}
+/* BOTON CONTACTO LATERAL */
+.btn-dark {
+  text-decoration: none;
+  display: flex;
+  color: goldenrod;
+  text-shadow: 3px 3px 5px black;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 10px;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@  MENU DESPLEGABLE  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*LOGO*/
+.dropdown-item:hover {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dropdown-menu {
+  li {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+.dropdown-item {
+  padding: 0;
+}
+.dropdown {
+  img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+  a {
+    cursor: pointer;
+  }
+}
+.dropdown-menu-center {
+  position: absolute;
+  margin: 0px;
+  transform: translate3d(-50px, 52px, 0px);
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@  MEDIA QUERIES  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+@media only screen and (max-width: 600px) {
+  .menu__large {
+    display: none;
+  }
+  .linea__separadora {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .dropdown {
+    display: none;
+  }
+}

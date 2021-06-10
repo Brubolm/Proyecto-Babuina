@@ -4,298 +4,270 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cerveza Babuina</title>
+    <title>Babuina House</title>
    
-    <link rel="stylesheet" href="./CSS/babuinaHouse.css" />
-    <link rel="stylesheet" href="./CSS/footer.css">
+   
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/Menu.css">
-    <link rel="stylesheet" href="./CSS/contacto.css">
+    
+    <link rel="stylesheet" href="./main.css">
+    
     <!-- Fuente importada -->
     <link
       href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap"
       rel="stylesheet"
     />
     <!-- imagen en pestaña -->
-    <link rel="shortcut icon" href="Img/LOGO BABUINA SOLO FONDO NEGRO.png" >
+    <link rel="shortcut icon" href="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" >
     
      <!-- iconos como fuente -->
      <script src="https://kit.fontawesome.com/562adb3221.js" crossorigin="anonymous"></script>      
      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
   </head>
-        <!-- INICIO MENU -->
-    <section class="menu">
-      <header>
+  <body>
+    <div class="babuina-house">
+<!-- MENU -->
+      <section class="menu">
+        <header>
 
-        <!-- menu responsive -->
-        <div class="dropdown">
-          <a class="btnmenu " role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" ><img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" class="dropdown-item" >  
-                     </a>
-          <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuLink">
-            <li><a  href="./index.html" class="dropdown-item">INICIO</a></li>
-            <li><a  href="./nuestras_cervezas.html" class="dropdown-item">NUESTRAS CERVEZAS</a></li>
-            <li><a  href="./babuina_house.html" class="dropdown-item">BABUINA HOUSE</a></li>
-            <li><a  href="./fabrica.html" class="dropdown-item">FÁBRICA</a></li>
-            <li><a  href="./experiencia_babuina.html" class="dropdown-item">EXPERIENCIA BABUINA</a></li>
-            <li><a  href="./contacto.html" class="dropdown-item">CONTACTO</a></li>
+          <!-- MENU PARA SMALL DEVICE -->
+          <div class="dropdown">
+            <a class="btnmenu" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" ><img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" class="dropdown-item" >  
+                      </a>
+            <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuButton">
+              <li><a  href="./index.html" class="dropdown-item">INICIO</a></li>
+              <li><a  href="./nuestras_cervezas.html" class="dropdown-item">NUESTRAS CERVEZAS</a></li>
+              <li><a  href="./babuina_house.html" class="dropdown-item">BABUINA HOUSE</a></li>
+              <li><a  href="./fabrica.html" class="dropdown-item">FÁBRICA</a></li>
+              <li><a  href="./experiencia_babuina.html" class="dropdown-item">EXPERIENCIA BABUINA</a></li>
+              <li><a  href="./contacto.html" class="dropdown-item">CONTACTO</a></li>
+            
+            </ul>
+          </div>
           
-          </ul>
-        </div>
-        
-        <!-- menu normal -->
-        <nav class="menu__desplegable">
-           
-          <ul class="blink-1">  
-            <li><a href="./index.html"><img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" alt="Inicio"></li></a>       
-            <li><a href="./nuestras_cervezas.html">NUESTRAS CERVEZAS</a></li>
-            <li><a href="./babuina_house.html">BABUINA HOUSE</a></li>
-            <li><a href="./fabrica.html">FÁBRICA</a></li>
-            <li><a href="./experiencia_babuina.html">EXPERIENCIA BABUINA</a></li>
-            <li><button class="btn btn-dark text-nowrap" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">CONTACTO</button>
-                       
-              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">CONTACTO</h5>
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
+          <!-- MENU LARGE DEVICE -->
+          <nav class="menu__large">
+            
+            <ul class="blink-1">  
+              <li><a href="./index.html"><img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" alt="Inicio"></li></a>       
+              <li><a href="./nuestras_cervezas.html">NUESTRAS CERVEZAS</a></li>
+              <li><a href="./babuina_house.html">BABUINA HOUSE</a></li>
+              <li><a href="./fabrica.html">FÁBRICA</a></li>
+              <li><a href="./experiencia_babuina.html">EXPERIENCIA BABUINA</a></li>
+              <li><button class="btn btn-dark text-nowrap" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">CONTACTO</button>
+                        
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">CONTACTO</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
 
-                  <!-- CONTACTO -->
-                  <form class="body-contacto2">
-                   <h2 class="titulo-contacto-desplegable">CONTACTO</h2> 
-                    <div class="datos">
-                      <div class="input-group input-group-sm mb-3">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Ingrese su Nombre"
-                          aria-label="Nombre"
-                        />
+                    <!-- CONTACTO -->
+                    <form class="body-contacto2">
+                    <h2 class="titulo-contacto-desplegable">CONTACTO</h2> 
+                      <div class="datos">
+                        <div class="input-group input-group-sm mb-3">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Ingrese su Nombre"
+                            aria-label="Nombre"
+                          />
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Ingrese su Apellido"
+                            aria-label="Apellido"
+                          />
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Ingrese su Mail"
+                            aria-label="Mail"
+                          />
+                        </div>
                       </div>
-                      <div class="input-group input-group-sm mb-3">
-                        <input
-                          type="text"
+                
+                      <select class="form-select probaste2" aria-label="Default select example">
+                        <option selected>¿Ya Probaste nuestra cerveza?</option>
+                        <option value="Si">Obvio</option>
+                        <option value="No">Ire al infierno</option>
+                      </select>
+                
+                      <select class="form-select probaste2" aria-label="Default select example">
+                        <option selected>¿Queres consultar sobre algo?</option>
+                
+                        <option value="Estilos">Estilos de cerveza</option>
+                        <option value="Especiales">Cervezas Gourmet</option>
+                        <option value="Babuina House">Bar</option>
+                        <option value="Fábrica">Fábrica</option>
+                        <option value="Experiencia Babuina">Experiencia Babuina</option>
+                        <option value="Contactarnos">Contacto</option>
+                        <option value="Contactarnos">Franquicias</option>
+                      </select>
+                
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"
+                          >Dejanos tu consulta o comentario</label
+                        >
+                        <textarea
                           class="form-control"
-                          placeholder="Ingrese su Apellido"
-                          aria-label="Apellido"
-                        />
+                          id="exampleFormControlTextarea1"
+                          rows="3"
+                        ></textarea>
                       </div>
-                      <div class="input-group input-group-sm mb-3">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Ingrese su Mail"
-                          aria-label="Mail"
-                        />
+                
+                      <div class="botones">
+                        <button type="submit" class="btn btn-secondary">Enviar</button>
+                        <button type="reset" class="btn btn-secondary">Borrar</button>
                       </div>
-                    </div>
-              
-                    <select class="form-select probaste2" aria-label="Default select example">
-                      <option selected>¿Ya Probaste nuestra cerveza?</option>
-                      <option value="Si">Obvio</option>
-                      <option value="No">Ire al infierno</option>
-                    </select>
-              
-                    <select class="form-select probaste2" aria-label="Default select example">
-                      <option selected>¿Queres consultar sobre algo?</option>
-              
-                      <option value="Estilos">Estilos de cerveza</option>
-                      <option value="Especiales">Cervezas Gourmet</option>
-                      <option value="Babuina House">Bar</option>
-                      <option value="Fábrica">Fábrica</option>
-                      <option value="Experiencia Babuina">Experiencia Babuina</option>
-                      <option value="Contactarnos">Contacto</option>
-                      <option value="Contactarnos">Franquicias</option>
-                    </select>
-              
-                    <div class="mb-3">
-                      <label for="exampleFormControlTextarea1" class="form-label"
-                        >Dejanos tu consulta o comentario</label
-                      >
-                      <textarea
-                        class="form-control"
-                        id="exampleFormControlTextarea1"
-                        rows="3"
-                      ></textarea>
-                    </div>
-              
-                    <div class="botones">
-                      <button type="submit" class="btn btn-secondary">Enviar</button>
-                      <button type="reset" class="btn btn-secondary">Borrar</button>
-                    </div>
-                  </form>
-                   <!-- CONTACTO -->
-                </div>
-              </div>
-            </li>
-            <!-- <li><a href="./contacto.html"
-                target="popup"
-                onclick="window.open('', 'popup', 'width = 500, height = 700')"
-                >CONTACTO</a></li> -->
-
-   
-              <!-- FIN PRUEB OFFCANVAS -->
-          </ul>
-        </nav>
-        <div class="linea__separadora"></div> 
-         </header>
-         <!-- FIN MENU -->
-        </section>
-
-    <section class="slidebar">
-      <div>
-        <ul>
-          
-            <li class="slidebar__titulo">Babuina House</li>
-         
-          <div class="slidebar__container">
-              <div class="slidebar__containercard">
-                <div class="slidebar__slide1">
-                  <div class="imagenbar">
-                    <img src="./Img/picada (2).jpg" alt="Picadas Babuina" />
+                    </form>
+                    <!-- CONTACTO -->
                   </div>
                 </div>
-                <div class="slidebar__descripcion">
-                  <h3 class="slidebar__descripcion--titulo">Picadas</h3>
-                  <p class="slidebar__descripcion--descripcion">
-                    para acompañar nuestras cervezas
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="slidebar__containercard">
-                <div class="slidebar__slide2">
-                  <div class="imagenbar">
-                    <img src="./Img/BH1.jpg" alt="Exterior" />
+              </li>
+              <!-- <li><a href="./contacto.html"
+                  target="popup"
+                  onclick="window.open('', 'popup', 'width = 500, height = 700')"
+                  >CONTACTO</a></li> -->
+
+    
+                <!-- FIN PRUEB OFFCANVAS -->
+            </ul>
+          </nav>
+          <div class="linea__separadora"></div> 
+          </header>
+          </section>
+<!-- TARJETAS -->
+      <section class="slider">
+        <div>
+          <div class="slider__titulo"><h1 class="slider__titulo--titulo">Babuina House</h1></div>
+            <div class="slider__cards">
+             <div class="slider__cards__cards">
+               <div class="slider__cards__cards__container">
+                  <img src="./Img/picada (2).jpg" alt="Picadas Babuina" />
+                  <div class="slider__cards__cards__container--descripcion">
+                    <h3 >Picadas</h3>
+                    <p>para acompañar nuestras cervezas</p>
                   </div>
                 </div>
-                <div class="slidebar__descripcion">
-                  <h3 class="slidebar__descripcion--titulo">Exterior</h3>
-                  <p class="slidebar__descripcion--descripcion">
-                    Disfruta la experiencia al exterior
-                  </p>
-                </div>
               </div>
-            </li>
-            <li>
-              <div class="slidebar__containercard">
-                <div class="slidebar__slide3">
-                  <div class="imagenbar">
-                    <img src="./Img/Take Away.jpg" alt="Take Away" />
+            
+            <div class="slider__cards__cards">
+                  <div class="slider__cards__cards__container">
+                   <img src="./Img/BH1.jpg" alt="Exterior" />
+                    <div class="slider__cards__cards__container--descripcion">
+                    <h3>Exterior</h3>
+                    <p>Disfruta la experiencia con aire fresco</p>
                   </div>
                 </div>
-                <div class="slidebar__descripcion">
-                  <h3 class="slidebar__descripcion--titulo">Take Away</h3>
-                  <p class="slidebar__descripcion--descripcion">
+              </div>
+            
+            <div class="slider__cards__cards">
+                <div class="slider__cards__cards__container">
+                  <img src="./Img/Take Away.jpg" alt="Take Away" />
+                    <div class="slider__cards__cards__container--descripcion">
+                  <h3>Take Away</h3>
+                  <p>
                     Toma lo que quieras, donde quieras!
                   </p>
                 </div>
               </div>
-            </li>
-            <li>
-              <div class="slidebar__containercard">
-                <div class="slidebar__slide4">
-                  <div class="imagenbar">
-                    <img src="./Img/Santa Clara.jpg" alt="Santa Clara" />
-                  </div>
-                </div>
-                <div class="slidebar__descripcion">
-                  <h3 class="slidebar__descripcion--titulo">Santa Clara</h3>
-                  <p class="slidebar__descripcion--descripcion">
+            </div>
+
+              <div class="slider__cards__cards">
+                <div class="slider__cards__cards__container">
+                                  <img src="./Img/Santa Clara.jpg" alt="Santa Clara" />
+                                
+                <div class="slider__cards__cards__container--descripcion">
+                  <h3>Santa Clara</h3>
+                  <p>
                     Te gusta la playa? Econtranos tambien ahi!
                   </p>
                 </div>
               </div>
-            </li>
-            <li>
-              <div class="slidebar__containercard">
-                <div class="slidebar__slide5">
-                  <div class="imagenbar">
-                    <img src="./Img/gourmet.jpeg" alt="Gourmet" />
-                  </div>
-                </div>
-                <div class="slidebar__descripcion">
-                  <h3 class="slidebar__descripcion--titulo">Gourmet</h3>
-                  <p class="slidebar__descripcion--descripcion">
+            </div>
+            
+              <div class="slider__cards__cards">
+                <div class="slider__cards__cards__container">
+                                      <img src="./Img/gourmet.jpeg" alt="Gourmet" />
+                                  
+                <div class="slider__cards__cards__container--descripcion">
+                  <h3>Gourmet</h3>
+                  <p>
                     Proba nuestras cervezas especiales
                   </p>
                 </div>
               </div>
-            </li>
-            <li>
-              <div class="slidebar__containercard">
-                <div class="slidebar__slide6">
-                  <div class="imagenbar">
-                    <img src="./Img/Franquicia.jpg" alt="Franquicia" />
-                  </div>
-                </div>
-                <div class="slidebar__descripcion">
-                  <h3 class="slidebar__descripcion--titulo">Franquicias</h3>
-                  <div class="slidebar__descripcion--descripcion"><a href="./contacto.html">
-                    Con ganas de abrir un Babuina House? contactanos!</a></div>
-                  
-                </div>
-              </div>
-            </li>
-          </div>
-        </ul>
-      </div>
-    </section>
-
-    <section class="ubicacion__bar">
-      <div class="linea__separadora"></div>
-      <h2>Encontranos en CABA, Ciudad de la paz 178</h2>
-      <div class="mapa">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.1315433815394!2d-58.44221838507033!3d-34.57553796351402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb55c1b3c6a1b%3A0xdda06fd723909b1!2sBabuina%20House!5e0!3m2!1sen!2sar!4v1621621762798!5m2!1sen!2sar"
-          width="800"          
-          height="300"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-      </div>
-      <h2>Encontranos en Santa Clara del Mar!</h2>
-      <div class="mapa">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.0552182959273!2d-57.50287998502983!3d-37.83559314306522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d187d8457065%3A0x1204ef3984f5e380!2sBabuina%20House!5e0!3m2!1ses!2sar!4v1621644190600!5m2!1ses!2sar"
-          width="800"
-          height="300"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-
-    </section>
-
-    <section>
-      
-      <footer class="footer"> 
-      
-
-          <div class="footer__contenedor">
-                <div class="footer__contenedor--datos">
-              <p>@CERVEZABABUINA</p>
-              <P>CERVEZABABUINA@GMAIL.COM</P>
-              <P>DESDE 2015</P>
             </div>
             
-                <div class="footer__contenedor--redes">
-          <ul>
-            <li><a href="https://www.facebook.com/cervezababuina/"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.instagram.com/cervezababuina/"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"> <i class="fab fa-whatsapp"></i></li></a>
-          </ul>
-        </div></div>
-      
-      </footer>
-      
-   
-  
-    </section>
-    
-    <!-- Bootstrap -->
+              <div class="slider__cards__cards">
+                <div class="slider__cards__cards__container">
+                  <div class="slider__cards__cards__container--img"> 
+                    <img src="./Img/Franquicia.jpg" alt="Franquicia" />
+                 </div>
+                
+                <div class="slider__cards__cards__container--descripcion">
+                  <h3>Franquicias</h3>
+                  <div><a href="./contacto.html">
+                    Con ganas de abrir un Babuina House? contactanos!</a></div>
+                </div>
+              </div></div>
+            </div>
+            </div>
+        </section>
+<!-- MAPAS UBICACION -->
+      <section class="ubicacion__bar">
+        <div class="linea__separadora"></div>
+          <h2>Encontranos en CABA, Ciudad de la paz 178</h2>
+            <div class="ubicacion__bar__mapa">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.1315433815394!2d-58.44221838507033!3d-34.57553796351402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb55c1b3c6a1b%3A0xdda06fd723909b1!2sBabuina%20House!5e0!3m2!1sen!2sar!4v1621621762798!5m2!1sen!2sar"
+                width="800"          
+                height="300"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          <h2>Encontranos en Santa Clara del Mar!</h2>
+            <div class="ubicacion__bar__mapa">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.0552182959273!2d-57.50287998502983!3d-37.83559314306522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d187d8457065%3A0x1204ef3984f5e380!2sBabuina%20House!5e0!3m2!1ses!2sar!4v1621644190600!5m2!1ses!2sar"
+                width="800"
+                height="300"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+
+      </section>
+<!-- FOOTER -->
+      <section>
+        <footer class="footer"> 
+          <div class="footer__contenedor">
+            <div class="footer__contenedor--datos">
+                <p>@CERVEZABABUINA</p>
+                <P>CERVEZABABUINA@GMAIL.COM</P>
+                <P>DESDE 2015</P>
+            </div>
+            <div class="footer__contenedor--redes">
+              <ul>
+              <li><a href="https://www.facebook.com/cervezababuina/"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.instagram.com/cervezababuina/"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"> <i class="fab fa-whatsapp"></i></li></a>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+<!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>

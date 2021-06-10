@@ -6,35 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cerveza Babuina</title>
    
-    <link rel="stylesheet" href="./CSS/index.css" />
-    <link rel="stylesheet" href="./CSS/footer.css">
+    
+    
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/Menu.css">
-    <link rel="stylesheet" href="./CSS/contacto.css">
+    
+    <link rel="stylesheet" href="./main.css">
+    
     <!-- Fuente importada -->
     <link
       href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap"
       rel="stylesheet"
     />
     <!-- imagen en pestaña -->
-    <link rel="shortcut icon" href="Img/LOGO BABUINA SOLO FONDO NEGRO.png" >
+    <link rel="shortcut icon" href="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" >
     
      <!-- iconos como fuente -->
      <script src="https://kit.fontawesome.com/562adb3221.js" crossorigin="anonymous"></script>      
      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body class="index">
     <!-- MENU -->
     <section class="menu">
       <header>
 
-        <!-- menu responsive -->
+        <!-- MENU PARA SMALL DEVICE -->
         <div class="dropdown">
-          <a class="btnmenu " role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" ><img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" class="dropdown-item" >  
+          <a class="btnmenu" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" ><img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" class="dropdown-item" >  
                      </a>
-          <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuLink">
+          <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuButton">
             <li><a  href="./index.html" class="dropdown-item">INICIO</a></li>
             <li><a  href="./nuestras_cervezas.html" class="dropdown-item">NUESTRAS CERVEZAS</a></li>
             <li><a  href="./babuina_house.html" class="dropdown-item">BABUINA HOUSE</a></li>
@@ -45,8 +46,8 @@
           </ul>
         </div>
         
-        <!-- menu normal -->
-        <nav class="menu__desplegable">
+        <!-- MENU LARGE DEVICE -->
+        <nav class="menu__large">
            
           <ul class="blink-1">  
             <li><a href="./index.html"><img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" alt="Inicio"></li></a>       
@@ -221,5 +222,9 @@
     
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
   </body>
 </html>

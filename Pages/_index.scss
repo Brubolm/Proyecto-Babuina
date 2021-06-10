@@ -1,18 +1,9 @@
-/*RESETEAR ESTIOS*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  cursor: default;
-  font-family: "Antonio", sans-serif;
-}
 /*ESTILOS GENERALES*/
-body {
+.index {
   background-image: url(../Img/dark_wood.png);
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   font-family: "Antonio", sans-serif;
-  /* gap: 10px; */
   justify-content: center;
   align-items: center;
 }
@@ -26,7 +17,6 @@ body {
   margin: 40px;
 }
 .hero div {
-  /* padding: 30px; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -201,21 +191,15 @@ body {
   text-align: center;
   color: goldenrod;
   font-size: 4rem;
-
   text-shadow: 3px 3px 5px black;
   display: flex;
   justify-content: center;
   margin-top: 0;
 }
 .cards {
-  /* grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem; */
   height: 100%;
   width: 100%;
   padding: 2rem 5rem;
-  /* justify-content: center;
-  align-content: center; */
-  /* display: flex; */
 }
 
 .alineacion_cards {
@@ -223,20 +207,12 @@ body {
   justify-content: center;
 }
 .cards__cards {
-  /* background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.15),
-    rgba(255, 255, 255, 0.3),
-    rgb(218, 165, 32, 0.5) */
-
   border-radius: 5%;
   background-color: goldenrod;
   text-shadow: rgba(0, 0, 0, 0.1) -1px 0, rgba(0, 0, 0, 0.1) 0 -1px,
     rgba(255, 255, 255, 0.1) 1px 0, rgba(255, 255, 255, 0.1) 0 1px,
     rgba(0, 0, 0, 0.1) -1px -1px, rgba(255, 255, 255, 0.1) 1px 1px;
   box-shadow: 12px -8px 20px 3px;
-  /* display: flex; */
   flex-direction: column;
   padding: 0.5rem;
   justify-content: space-between;
@@ -275,25 +251,5 @@ body {
   object-fit: cover;
   width: 100%;
   height: 100%;
-
-  /* max-height: 70%; */
   position: absolute;
-  /* transform: translate(-5%); */
 }
-
-/* .cards__img2 {
-  background-image: url(../Img/fabrica.JPG);
-  background-size: 100% 100%;
-}
-.cards__img1 {
-  background-image: url(../Img/posavasos.jpg);
-}
-.cards__img3 {
-  background-image: url(../Img/elixir.jpg); }*/
-
-/* .cards img:hover {
-  transform: scale(135%);
-  transition: 1s;
-  border-radius: 5%;
-  box-shadow: 0px 0px 30px white;
-} */
