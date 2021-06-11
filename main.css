@@ -1125,3 +1125,104 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.about__tarjetas {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.about__column {
+  display: flex;
+  justify-content: space-evenly;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.about__card {
+  margin: 15px;
+  width: 60%;
+}
+
+.about__card h2 {
+  margin: 5px;
+}
+
+.about__card img {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.about__hero {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: goldenrod;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+  text-shadow: #000 0px 0px 0px 40px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.about__section {
+  padding: 20px;
+  height: 35vh;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  object-fit: fill;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.about__section img {
+  opacity: 0.75;
+  width: 70%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.about__container {
+  padding: 0 5px;
+}
+
+.about__descripcion {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #ccc7c7;
+  font-size: 1rem;
+}
+
+.about__title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px;
+  color: goldenrod;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+  text-shadow: #000 0px 0px 0px 40px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.about__title2 {
+  font-size: 2rem;
+  text-align: center;
+  color: goldenrod;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+  text-shadow: #000 0px 0px 0px 40px;
+  -webkit-font-smoothing: antialiased;
+}
