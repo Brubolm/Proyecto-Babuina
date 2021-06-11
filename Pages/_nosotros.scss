@@ -1,0 +1,17 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.nosotros {
+  display: grid;
+  background-image: url(../Img/dark_wood.png);
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  font-family: "Antonio", sans-serif !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}

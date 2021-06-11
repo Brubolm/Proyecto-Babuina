@@ -6,6 +6,9 @@
   font-family: "Antonio", sans-serif;
   justify-content: center;
   align-items: center;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
 }
 
 /*@@@@@@@@@@@@@@@@@@@@ BODY - LOGO @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
@@ -199,7 +202,7 @@
 .cards {
   height: 100%;
   width: 100%;
-  padding: 2rem 5rem;
+  padding: 0 2rem 5rem;
 }
 
 .alineacion_cards {
@@ -222,7 +225,7 @@
   min-height: 400px;
   max-height: 500px;
   min-width: 250px;
-  max-width: 400px;
+  max-width: 300px;
   position: relative;
   overflow: hidden;
   padding-bottom: 10px;

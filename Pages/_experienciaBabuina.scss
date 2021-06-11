@@ -170,16 +170,40 @@ body {
   }
 }
 
-.experiencia__Texto {
+.experiencia__texto {
   display: flex;
-  flex-direction: column;
+
+  // background-color: rgba(128, 128, 128, 0.219);
+  justify-content: space-between;
   text-align: center;
   color: goldenrod;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
   font-size: 1.5rem;
   text-transform: uppercase;
-  padding: 25px;
+  flex-wrap: wrap;
+  margin: 30px;
   // background-image: url("../Img/LOGO BABUINA SOLO FONDO NEGRO op15.png");
   // background-position: center center;
   // background-size: 50%;
   // background-repeat: no-repeat;
+  p {
+    display: flex;
+    padding: 15px;
+  }
+  div ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 30px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    li {
+      padding: 10px;
+
+      img {
+        height: 30px;
+      }
+    }
+  }
 }
