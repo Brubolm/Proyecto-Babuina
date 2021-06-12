@@ -533,7 +533,7 @@
   grid-template-rows: auto 2fr auto auto;
   grid-template-columns: auto;
   font-family: "Antonio", sans-serif;
-  background-image: url(../Img/dark_wood.png);
+  background-image: url(./Img/dark_wood.png);
 }
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@ SLIDE BAR  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
@@ -838,7 +838,7 @@ input[type="text"]::placeholder {
 }
 
 .offcanvas {
-  background-image: url(../Img/dark_wood.png);
+  background-image: url(./Img/dark_wood.png);
 }
 
 .offcanvas-body {
