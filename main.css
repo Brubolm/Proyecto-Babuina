@@ -272,7 +272,7 @@
 
 /*ESTILOS GENERALES*/
 .index {
-  background-image: url(../Img/dark_wood.png);
+  background-image: url(./Img/dark_wood.png);
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   font-family: "Antonio", sans-serif;
@@ -694,7 +694,7 @@
   max-height: 60%;
   margin: 10px;
   box-shadow: 0 0 30px black;
-  background: url(../Img/Patterns/binding_dark.png);
+  background: url(./Img/Patterns/binding_dark.png);
 }
 
 .slider__cards__container {
@@ -782,7 +782,7 @@ h2 {
   font-family: "Antonio", sans-serif !important;
   color: white;
   font-size: 1.2rem;
-  background-image: url(../Img/dark_wood.png);
+  background-image: url(./Img/dark_wood.png);
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -907,7 +907,7 @@ body {
 
 .experiencia-babuina {
   display: grid;
-  background-image: url(../Img/dark_wood.png);
+  background-image: url(./Img/dark_wood.png);
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   font-family: "Antonio", sans-serif !important;
@@ -1116,7 +1116,7 @@ body {
 
 .nosotros {
   display: grid;
-  background-image: url(../Img/dark_wood.png);
+  background-image: url(./Img/dark_wood.png);
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   font-family: "Antonio", sans-serif !important;
