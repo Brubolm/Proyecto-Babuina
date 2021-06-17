@@ -37,6 +37,11 @@
     display: flex;
     justify-content: center;
   }
+  .estilos__titulo--logo2 {
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+  }
 
   &__contenedor {
     width: 100%;
@@ -76,7 +81,7 @@
         h4 {
           width: 100%;
           color: rgb(0, 0, 0);
-          text-shadow: 0 0px 8px rgb(255, 255, 255);
+          text-shadow: 0 0px 50px rgb(255, 255, 255);
           text-transform: uppercase;
           font-size: 2rem;
           text-align: center;

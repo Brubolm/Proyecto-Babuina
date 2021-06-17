@@ -331,7 +331,7 @@
 .hero__descripcion {
   color: whitesmoke;
   margin: 40px 0px 40px 0px;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 /*ANIMACION SUBTITULO*/
@@ -596,6 +596,12 @@
   justify-content: center;
 }
 
+.estilos .estilos__titulo--logo2 {
+  max-width: 60px;
+  display: flex;
+  justify-content: center;
+}
+
 .estilos__contenedor {
   width: 100%;
   padding: 0;
@@ -637,7 +643,7 @@
 .estilos__contenedor__etiquetas .estilos-datos h4 {
   width: 100%;
   color: black;
-  text-shadow: 0 0px 8px white;
+  text-shadow: 0 0px 50px white;
   text-transform: uppercase;
   font-size: 2rem;
   text-align: center;
