@@ -54,6 +54,7 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
+  filter: drop-shadow(3px 3px 5px black);
 }
 
 /*BOTON QUE TITILA AL HACER HOVER*/
@@ -480,6 +481,7 @@
 .hero img {
   max-width: 50%;
   max-height: 50%;
+  filter: drop-shadow(0 0 5px black);
 }
 
 /*@@@@@@@@@@@@@@@@@@@@CARDS@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
@@ -594,12 +596,14 @@
   max-width: 100px;
   display: flex;
   justify-content: center;
+  filter: drop-shadow(1px 1px 5px black);
 }
 
 .estilos .estilos__titulo--logo2 {
   max-width: 60px;
   display: flex;
   justify-content: center;
+  filter: drop-shadow(1px 1px 5px black);
 }
 
 .estilos__contenedor {
@@ -617,9 +621,18 @@
 
 .estilos__contenedor__etiquetas img {
   object-fit: scale-down;
-  width: 100%;
-  box-shadow: 0 0 30px black;
+  max-width: 100%;
+}
+
+.estilos__contenedor__etiquetas .etiquetas {
+  box-shadow: 0 0 20px black;
   border-radius: 5%;
+}
+
+.estilos__contenedor__etiquetas .pumpkin {
+  object-fit: scale-down;
+  width: 100%;
+  filter: drop-shadow(0 0 30px black);
 }
 
 .estilos__contenedor__etiquetas .estilos-datos {
@@ -653,7 +666,17 @@
   width: 100%;
   color: #c9c7c7;
   text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
   text-align: center;
+}
+
+@media only screen and (min-width: 720px) {
+  .estilos__contenedor__etiquetas img {
+    max-width: 700px;
+  }
+  .estilos__contenedor__etiquetas p {
+    width: 700px;
+  }
 }
 
 /*ESTILOS GENERALES*/
@@ -1004,6 +1027,7 @@ body {
 
 .experiencia__texto div ul li img {
   height: 30px;
+  filter: drop-shadow(0 0 5px black);
 }
 
 html,
@@ -1048,6 +1072,7 @@ body {
 
 .about__card h2 {
   margin: 5px;
+  text-shadow: 5px 5px 5px black;
 }
 
 .about__card img {
@@ -1104,6 +1129,7 @@ body {
   justify-content: center;
   color: #ccc7c7;
   font-size: 1rem;
+  text-shadow: 5px 5px 5px black;
 }
 
 .about__title {
@@ -1130,6 +1156,6 @@ body {
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
-  text-shadow: #000 0px 0px 0px 40px;
+  text-shadow: 5px 5px 5px black;
   -webkit-font-smoothing: antialiased;
 }

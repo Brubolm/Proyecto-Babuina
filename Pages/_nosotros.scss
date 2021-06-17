@@ -42,6 +42,7 @@ body {
 
   h2 {
     margin: 5px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
   }
 
   img {
@@ -100,6 +101,7 @@ body {
   justify-content: center;
   color: rgb(204, 199, 199);
   font-size: 1rem;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
 }
 
 .about__title {
@@ -126,7 +128,7 @@ body {
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
-  text-shadow: #000 0px 0px 0px 40px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
   -webkit-font-smoothing: antialiased;
 }
 
