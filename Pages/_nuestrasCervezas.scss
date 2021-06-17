@@ -1,8 +1,93 @@
-/*RESETEAR ESTIOS*/
-* {
+.nuestras__cervezas {
+  background-image: url(./Img/dark_wood.png);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: "Antonio", sans-serif;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  cursor: default;
 }
-/*ESTILOS GENERALES*/
+
+.estilos {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  &__titulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: 5rem;
+    color: goldenrod;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+    -webkit-font-smoothing: antialiased;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .estilos__titulo--logo {
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__contenedor {
+    width: 100%;
+    padding: 0;
+
+    &__etiquetas {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      justify-content: center;
+      align-items: center;
+      img {
+        object-fit: scale-down;
+        width: 100%;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+        border-radius: 5%;
+
+        // border: black strong 4px;
+      }
+      .estilos-datos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        h3 {
+          width: 100%;
+          color: goldenrod;
+
+          text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+          text-transform: uppercase;
+
+          font-size: 3rem;
+          text-align: center;
+        }
+        h4 {
+          width: 100%;
+          color: rgb(0, 0, 0);
+          text-shadow: 0 0px 8px rgb(255, 255, 255);
+          text-transform: uppercase;
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+      p {
+        width: 100%;
+        color: rgba(201, 199, 199, 1);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+        text-align: center;
+      }
+    }
+  }
+}
