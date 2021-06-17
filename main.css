@@ -146,6 +146,16 @@
   text-align: center;
 }
 
+.hamburguer .bar {
+  width: 25px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.678);
+  margin: 3px 0;
+  cursor: pointer;
+  position: relative;
+  border-radius: 50px;
+}
+
 .dropdown-menu li {
   justify-content: center;
   align-items: center;
@@ -160,6 +170,11 @@
   padding: 0;
 }
 
+.dropdown {
+  position: fixed;
+  z-index: 500;
+}
+
 .dropdown img {
   height: 50px;
   width: 50px;
@@ -170,10 +185,9 @@
   cursor: pointer;
 }
 
-.dropdown-menu-center {
+.dropdown-menu-center .dropdwon-menu .show {
   position: absolute;
   margin: 0px;
-  transform: translate3d(-50px, 52px, 0px);
 }
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@  MEDIA QUERIES  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
@@ -183,6 +197,13 @@
   }
   .linea__separadora {
     display: none;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  .hero {
+    margin-top: 40px;
   }
 }
 
@@ -197,7 +218,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 0 0 0;
+  padding: 10px 0 0 10px;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75), black);
   color: rgba(218, 165, 32, 0.5);
   text-shadow: 3px 3px 5px black;
@@ -248,7 +269,7 @@
   text-decoration: none;
   margin: 5px;
   display: flex;
-  font-size: 1rem;
+  font-size: 2rem;
   color: goldenrod;
   text-shadow: 3px 3px 5px black;
   cursor: pointer;
@@ -289,7 +310,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 40px;
+  margin-bottom: 20px;
 }
 
 .hero div {
@@ -809,6 +830,7 @@ body fieldset form input {
   align-items: center;
   width: 40%;
   margin-bottom: 20px;
+  padding-top: 40px;
 }
 
 h4 {
