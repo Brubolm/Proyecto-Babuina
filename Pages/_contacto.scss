@@ -46,7 +46,9 @@ h4 {
 input[type="text"]::placeholder {
   text-align: center;
 }
-
+input[type="email"]::placeholder {
+  text-align: center;
+}
 .probaste {
   width: 250px;
   margin: 10px;
@@ -103,7 +105,9 @@ h4 {
 input[type="text"]::placeholder {
   text-align: center;
 }
-
+input[type="email"]::placeholder {
+  text-align: center;
+}
 .probaste2 {
   width: 60%;
   margin: 10px;
