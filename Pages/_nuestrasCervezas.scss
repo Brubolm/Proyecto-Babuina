@@ -71,6 +71,22 @@
         width: 100%;
         filter: drop-shadow(0 0 30px rgba(0, 0, 0, 1));
       }
+      .bgourmet {
+        object-fit: cover;
+        width: 90%;
+        padding: 1rem;
+        border-radius: 15%;
+        filter: drop-shadow(0 0 30px rgba(0, 0, 0, 1));
+      }
+      .dscbgourmet {
+        width: 100%;
+        color: rgba(201, 199, 199, 1);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px;
+      }
       .estilos-datos {
         display: flex;
         flex-direction: column;
@@ -113,8 +129,19 @@
     img {
       max-width: 700px;
     }
+
     p {
       width: 700px;
+    }
+
+    .dscbgourmet {
+      width: 60%;
+      color: rgba(201, 199, 199, 1);
+      text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 10px;
     }
   }
 }

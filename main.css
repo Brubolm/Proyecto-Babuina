@@ -725,6 +725,24 @@
   filter: drop-shadow(0 0 30px black);
 }
 
+.estilos__contenedor__etiquetas .bgourmet {
+  object-fit: cover;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 15%;
+  filter: drop-shadow(0 0 30px black);
+}
+
+.estilos__contenedor__etiquetas .dscbgourmet {
+  width: 100%;
+  color: #c9c7c7;
+  text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+}
+
 .estilos__contenedor__etiquetas .estilos-datos {
   display: flex;
   flex-direction: column;
@@ -766,6 +784,15 @@
   }
   .estilos__contenedor__etiquetas p {
     width: 700px;
+  }
+  .estilos__contenedor__etiquetas .dscbgourmet {
+    width: 60%;
+    color: #c9c7c7;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
   }
 }
 
