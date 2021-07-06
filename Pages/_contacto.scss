@@ -18,6 +18,10 @@
   gap: 1rem;
   margin: 15px;
 }
+.formdatos {
+  margin: 7px;
+  border-radius: 3px;
+}
 
 form {
   display: flex;
@@ -35,7 +39,10 @@ body fieldset form input {
   align-items: center;
   width: 40%;
   margin-bottom: 20px;
-  padding-top: 40px;
+  padding-top: 300px;
+}
+.botones {
+  padding-bottom: 15px;
 }
 
 h4 {

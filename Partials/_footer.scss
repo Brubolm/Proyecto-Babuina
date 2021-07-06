@@ -16,6 +16,7 @@
   text-shadow: 3px 3px 5px black;
   text-align: center;
 }
+
 .footer__contenedor {
   display: flex;
   align-items: center;
@@ -30,9 +31,11 @@
 .footer__contenedor--datos {
   display: flex;
 }
+
 .footer p {
   margin: 10px;
 }
+
 .footer__contenedor--redes ul {
   list-style-type: none;
   display: flex;
@@ -42,6 +45,7 @@
   text-decoration: none;
   padding: 0;
 }
+
 .footer__contenedor--redes li {
   margin: 0px 10px;
   display: flex;
@@ -69,6 +73,7 @@
 .footer__contenedor--redes li a:hover {
   animation: blink 0.4s;
 }
+// ANIMACIÓN DE TITILAR
 @keyframes blink {
   0%,
   50%,
@@ -78,5 +83,15 @@
   25%,
   75% {
     opacity: 0;
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 650px) {
+  .footer__contenedor--datos {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
   }
 }

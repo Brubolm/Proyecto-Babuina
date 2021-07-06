@@ -4,177 +4,163 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TÍTULO PÁGINA -->
     <title>Cerveza Babuina - Nosotros</title>
+    <!-- SEO -->
     <meta name="keywords" content="CERVEZA BABUINA, nosotros, about us, Tomas Gilbert, Bruno Lopez Mosconi, brewmaster, cervecero">
     <meta name="description" content="Conoce quienes llevan adelante el sueño de realizar la mejor cerveza artesanal, Cerveza Babuina.">
-    
-   
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="./main.css">
-    
     <!-- Fuente importada -->
     <link
       href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <!-- imagen en pestaña -->
     <link rel="shortcut icon" href="./Img/LOGO BABUINA NEGRO 4X4.png" >
-    
-     <!-- iconos como fuente -->
-     <script src="https://kit.fontawesome.com/562adb3221.js" crossorigin="anonymous"></script>      
-     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+    <!-- iconos como fuente -->
+    <script src="https://kit.fontawesome.com/562adb3221.js" crossorigin="anonymous"></script>      
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="nosotros">
-<!-- MENU -->
-      <section class="menu">
-        <header>
+    <!-- MENU -->
+    <section class="menu">
+    <header>
+      <!-- MENU PARA SMALL DEVICE -->
+      <div class="dropdown ">
+        <div class="btnmenu " role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" data-bs-display="static">
+          <div class="hamburguer">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(-68px, 25px);">
+            <li><a  href="./index.html" class="dropdown-item">INICIO</a></li>
+          <li><a  href="./nuestras_cervezas.html" class="dropdown-item">NUESTRAS CERVEZAS</a></li>
+          <li><a  href="./babuina_house.html" class="dropdown-item">BABUINA HOUSE</a></li>
+          <li><a  href="./experiencia_babuina.html" class="dropdown-item">EXPERIENCIA BABUINA</a></li>
+          <li><a  href="./nosotros.html" class="dropdown-item">NOSOTROS</a></li>
+          <li><a  href="./contacto.html" class="dropdown-item">CONTACTO</a></li>
+        </ul>
 
-          <!-- MENU PARA SMALL DEVICE -->
-          <div class="dropdown ">
-            <!-- <a class="btnmenu" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" data-bs-display="static"><img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" class="dropdown-item" >  -->
-             <div class="btnmenu " role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" data-bs-display="static">
-             <div class="hamburguer">
-               <div class="bar"></div>
-               <div class="bar"></div>
-               <div class="bar"></div>
-             </div>
-           </div>
-           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(-68px, 25px);">
-               <li><a  href="./index.html" class="dropdown-item">INICIO</a></li>
-             <li><a  href="./nuestras_cervezas.html" class="dropdown-item">NUESTRAS CERVEZAS</a></li>
-             <li><a  href="./babuina_house.html" class="dropdown-item">BABUINA HOUSE</a></li>
-             <li><a  href="./experiencia_babuina.html" class="dropdown-item">EXPERIENCIA BABUINA</a></li>
-             <li><a  href="./nosotros.html" class="dropdown-item">NOSOTROS</a></li>
-             <li><a  href="./contacto.html" class="dropdown-item">CONTACTO</a></li>
-           </ul>
-  
-         </div>
-          
-          <!-- MENU LARGE DEVICE -->
-          <nav class="menu__large">
-            
-            <ul class="blink-1">  
-              <li><a href="./index.html"><img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" alt="Inicio"></li></a>       
-              <li><a href="./nuestras_cervezas.html">NUESTRAS CERVEZAS</a></li>
-              <li><a href="./babuina_house.html">BABUINA HOUSE</a></li>
-              <li><a href="./experiencia_babuina.html">EXPERIENCIA BABUINA</a></li>
-              <li><a  href="./nosotros.html">NOSOTROS</a></li>
-              <li><button class="btn btn-dark text-nowrap" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">CONTACTO</button>
-                        
-                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                  <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">CONTACTO</h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      
+      <!-- MENU LARGE DEVICE -->
+      <nav class="menu__large">
+        <ul class="blink-1">  
+          <li><a href="./index.html"><img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" alt="Inicio"></li></a>       
+          <li><a href="./nuestras_cervezas.html">NUESTRAS CERVEZAS</a></li>
+          <li><a href="./babuina_house.html">BABUINA HOUSE</a></li>
+          <li><a href="./experiencia_babuina.html">EXPERIENCIA BABUINA</a></li>
+          <li><a  href="./nosotros.html">NOSOTROS</a></li>
+          <li><button class="btn btn-dark text-nowrap" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">CONTACTO</button>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">CONTACTO</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+
+                <!-- CONTACTO -->
+                <!-- SECCIÓN DATOS -->
+                <form class="body-contacto2">
+                <h2 class="titulo-contacto-desplegable">CONTACTO</h2> 
+                <div class="datos">
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      name="nombre"
+                      class="form-control"
+                      placeholder="Ingrese su Nombre"
+                      aria-label="Nombre"
+                    />
                   </div>
-                  <div class="offcanvas-body">
-
-                    <!-- CONTACTO -->
-                    <form class="body-contacto2">
-                    <h2 class="titulo-contacto-desplegable">CONTACTO</h2> 
-                    <div class="datos">
-                      <div class="input-group mb-3">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Ingrese su Nombre"
-                          aria-label="Nombre"
-                        />
-                      </div>
-                      <div class="input-group mb-3">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Ingrese su Apellido"
-                          aria-label="Apellido"
-                        />
-                      </div>
-                      <div class="form-group-sm mb-3">
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="exampleInputEmail1"
-                          aria-describedby="emailHelp"
-                          placeholder="Ingrese su Mail"
-                          aria-label="Mail"
-                        />
-                        <small id="emailHelp" class="form-text text-muted"
-                          >Si tomas nuestra cerveza, nunca compartiremos tu mail con
-                          nadie.</small
-                        >
-                      </div>
-                    </div>
-                
-                      <select class="form-select probaste2" aria-label="Default select example">
-                        <option selected>¿Ya Probaste nuestra cerveza?</option>
-                        <option value="Si">Obvio</option>
-                        <option value="No">Ire al infierno</option>
-                      </select>
-                
-                      <select class="form-select probaste2" aria-label="Default select example">
-                        <option selected>¿Queres consultar sobre algo?</option>
-                
-                        <option value="Estilos">Estilos de cerveza</option>
-                        <option value="Especiales">Cervezas Gourmet</option>
-                        <option value="Babuina House">Bar</option>
-                        <option value="Fábrica">Fábrica</option>
-                        <option value="Experiencia Babuina">Experiencia Babuina</option>
-                        <option value="Contactarnos">Contacto</option>
-                        <option value="Contactarnos">Franquicias</option>
-                      </select>
-                
-                      <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label"
-                          >Dejanos tu consulta o comentario</label
-                        >
-                        <textarea
-                          class="form-control"
-                          id="exampleFormControlTextarea1"
-                          rows="3"
-                        ></textarea>
-                      </div>
-                
-                      <div class="botones">
-                        <button type="submit" class="btn btn-secondary">Enviar</button>
-                        <button type="reset" class="btn btn-secondary">Borrar</button>
-                      </div>
-                    </form>
-                    <!-- CONTACTO -->
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="apellido"
+                      placeholder="Ingrese su Apellido"
+                      aria-label="Apellido"
+                    />
+                  </div>
+                  <div class="form-group-sm mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      aria-describedby="emailHelp"
+                      placeholder="Ingrese su Mail"
+                      aria-label="Mail"
+                    />
+                    <small id="emailHelp" class="form-text text-muted"
+                      >Si tomas nuestra cerveza, nunca compartiremos tu mail con
+                      nadie.</small>
                   </div>
                 </div>
-              </li>
-              <!-- <li><a href="./contacto.html"
-                  target="popup"
-                  onclick="window.open('', 'popup', 'width = 500, height = 700')"
-                  >CONTACTO</a></li> -->
+                  <!-- SECCIÓN PRUEBA -->
+                  <select class="form-select probaste2" name="probo" aria-label="Default select example">
+                    <option selected>¿Ya Probaste nuestra cerveza?</option>
+                    <option value="Si">Obvio</option>
+                    <option value="No">Ire al infierno</option>
+                  </select>
+                  <!-- SECCIÓN CONSULTAS -->
+                  <select class="form-select probaste2" name="tipoconsulta" aria-label="Default select example">
+                    <option selected>¿Queres consultar sobre algo?</option>
+                    <option value="Estilos">Estilos de cerveza</option>
+                    <option value="Especiales">Cervezas Gourmet</option>
+                    <option value="Babuina House">Bar</option>
+                    <option value="Fábrica">Fábrica</option>
+                    <option value="Experiencia Babuina">Experiencia Babuina</option>
+                    <option value="Contactarnos">Contacto</option>
+                    <option value="Contactarnos">Franquicias</option>
+                  </select>
+                  <!-- SECCIÓN COMENTARIOS -->
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"
+                      >Dejanos tu consulta o comentario</label>
+                    <textarea
+                      class="form-control"
+                      name="comentario"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <!-- SECCIÓN BOTONES -->
+                  <div class="botones">
+                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                    <button type="reset" class="btn btn-secondary">Borrar</button>
+                  </div>
+                </form>
 
-    
-                <!-- FIN PRUEB OFFCANVAS -->
-            </ul>
-          </nav>
-          <div class="linea__separadora"></div> 
-          </header>
-      </section>
-<!-- HERO -->
-      <section>
- 
-        <!-- <H1 class="about__hero">Amistad, pasion, dedicacion y mucha garra</H1> -->
+                <!-- FIN CONTACTO LATERAL-->
+
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- LINEA SEPARADORA DEL RESTO DE LA PAGINA -->
+
+      <div class="linea__separadora"></div> 
+    </header>
+    </section>
+      <!-- SECCIÓN HERO -->
+    <section>
+      <!-- TÍTULO -->
         <h1 class="about__title ">EQUIPO</h1>
         <div class="about__section">
-          
           <img src="./Img/nosotros3.png" alt="">
-         
         </div>
-
-        <!-- <div class="linea__separadora"></div>  -->
-        
+      <!-- SECCIÓN CARDS EQUIPO -->
         <div class="row">
           <div class="about__tarjetas col col-sd-5">
             <div class="about__card">
-              <img src="./Img/pumpkin.jpg" alt="Jane" style="width:100%">
+              <img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" alt="Bruno López Mosconi" style="width:75%" >
               <div class="about__container">
                 <h2>Bruno López Mosconi</h2>
                 <p class="about__title2">Brewmaster</p>
@@ -185,7 +171,7 @@
        
           <div class="about__tarjetas col col-sd-5">
             <div class="about__card">
-              <img src="./Img/pumpkin.jpg" alt="John" style="width:100%">
+              <img src="./Img/LOGO BABUINA SOLO FONDO NEGRO.png" alt="Tomás Federico Gilbert" style="width:75%">
               <div class="container">
                 <h2>Tomás Federico Gilbert</h2>
                 <p class="about__title2">Ventas</p>
@@ -195,29 +181,32 @@
           </div>
         </div>
 
-      </section>
+    </section>
 
-      <a href="#" class="btn-flotante">^</a>
-<!-- FOOTER -->
-<section>
-  <footer class="footer"> 
-    <div class="footer__contenedor">
-      <div class="footer__contenedor--datos">
-          <p>@CERVEZABABUINA</p>
-          <P>CERVEZABABUINA@GMAIL.COM</P>
-          <P>DESDE 2015</P>
-      </div>
-      <div class="footer__contenedor--redes">
-        <ul>
-          <li><a href="https://www.facebook.com/cervezababuina/"target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/cervezababuina/"target="_blank"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://wa.me/5491131434506"target="_blank"> <i class="fab fa-whatsapp"></i></li></a>
-        </ul>
-      </div>
-    </div>
-  </footer>
-</section>
-</div>
+    <!-- BOTON PARA IR AL INICIO DE LA WEB -->
+    <a href="#" class="btn-flotante">^</a>    
+    <!-- SECCIÓN FOOTER -->
+    <section>
+      <footer class="footer"> 
+        <div class="footer__contenedor">
+          <div class="footer__contenedor--datos">
+            <p>@CERVEZABABUINA</p>
+            <P>CERVEZABABUINA@GMAIL.COM</P>
+            <P>DESDE 2015</P>
+          </div>
+        <!-- ICONOS REDES SOCIALES -->
+          <div class="footer__contenedor--redes">
+           <ul>
+            <li><a href="https://www.facebook.com/cervezababuina/"target="_blank"  rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/cervezababuina/"target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://wa.me/5491131434506" target="_blank"  rel="noopener"> <i class="fab fa-whatsapp"></i></li></a>
+           </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- FIN FOOTER -->
+    </section>
+  </div>
 <!-- Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>

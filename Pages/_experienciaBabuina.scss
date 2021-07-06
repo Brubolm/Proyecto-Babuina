@@ -25,13 +25,11 @@ body {
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
   -webkit-font-smoothing: antialiased;
-  /*ANIMACION TITULO */
-  // animation: text-flicker-in-glow 4s linear both;
   display: flex;
   padding: 50px;
   justify-content: center;
 }
-// CAROUSEL @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// CAROUSEL
 .contenedor-carousel {
   width: 100%;
   align-items: center;
@@ -49,7 +47,7 @@ body {
 .carousel-inner > .item > img {
   margin: 0 auto;
 }
-// BAJAR FLECHITAS
+// BAJAR FLECHITAS DE CAROUSEL DE BS
 .carousel-control-next-icon {
   transform: translateY(50px);
 }
@@ -59,8 +57,6 @@ body {
 
 .experiencia__texto {
   display: flex;
-
-  // background-color: rgba(128, 128, 128, 0.219);
   justify-content: space-between;
   text-align: center;
   color: goldenrod;
@@ -69,10 +65,7 @@ body {
   text-transform: uppercase;
   flex-wrap: wrap;
   margin: 30px;
-  // background-image: url("../Img/LOGO BABUINA SOLO FONDO NEGRO op15.png");
-  // background-position: center center;
-  // background-size: 50%;
-  // background-repeat: no-repeat;
+
   p {
     display: flex;
     padding: 15px;
