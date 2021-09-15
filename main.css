@@ -1282,3 +1282,227 @@ body {
     height: 200px;
   }
 }
+
+.tienda {
+  background-image: url(./Img/dark_wood.png);
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  font-family: "Antonio", sans-serif;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+.tienda .centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tienda .estilos__titulo--logo2 {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.tienda .btn {
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.tienda .btn-primary {
+  color: black;
+  background-color: #a7a7a7;
+  border: none;
+  border-radius: 0.3em;
+}
+
+.tienda .btn-check:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.tienda .btn-primary:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.tienda .btn-primary:hover {
+  background-color: rgba(218, 165, 32, 0.678);
+  border-color: transparent;
+}
+
+.tienda .shop-item {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tienda .shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: goldenrod;
+  margin-bottom: 15px;
+  text-shadow: 5px 5px 5px black;
+}
+
+.tienda .shop-item-image {
+  width: 10vw;
+  filter: drop-shadow(2px 2px 5px black);
+}
+
+.tienda .shop-item-details {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+  gap: 1rem;
+  text-shadow: 5px 5px 5px black;
+}
+
+.tienda .shop-item-price {
+  flex-grow: 1;
+  color: goldenrod;
+  font-size: 2rem;
+}
+
+.tienda .shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tienda .cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: goldenrod;
+  border-bottom: 1px solid rgba(218, 165, 32, 0.349);
+}
+
+.tienda .cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(218, 165, 32, 0.349);
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.tienda .cart-row {
+  display: flex;
+  text-shadow: 5px 5px 5px black;
+}
+
+.tienda .cart-item {
+  width: 45%;
+}
+
+.tienda .cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: goldenrod;
+  filter: drop-shadow(1px 1px 5px black);
+}
+
+.tienda .cart-quantity {
+  width: 40%;
+}
+
+.tienda .cart-item-title {
+  color: goldenrod;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.tienda .cart-item-image {
+  width: 40px;
+  height: auto;
+  filter: drop-shadow(1px 1px 5px black);
+  border-radius: 10px;
+}
+
+.tienda .btn-danger {
+  color: white;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+  filter: drop-shadow(1px 1px 3px black);
+}
+
+.tienda .btn-danger:hover {
+  background-color: #cc4c4c;
+}
+
+.tienda .cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56ccf2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+  filter: drop-shadow(1px 1px 3px black);
+}
+
+.tienda .cart-row:last-child {
+  border-bottom: 1px solid rgba(218, 165, 32, 0.349);
+}
+
+.tienda .cart-row:last-child .cart-column {
+  border: none;
+}
+
+.tienda .cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.tienda .cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: goldenrod;
+  margin-right: 20px;
+  filter: drop-shadow(1px 1px 3px black);
+}
+
+.tienda .cart-total-price {
+  color: goldenrod;
+  font-size: 3em;
+  filter: drop-shadow(2px 2px 5px black);
+}
+
+.tienda .btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+}
+
+/* @@@@@ APP CLIMA @@@ */
+.clima {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: goldenrod;
+  font-size: 1em;
+  text-shadow: 3px 3px 5px black;
+}
+
+.temperatura {
+  font-size: 1.5em;
+}
+
+.temperaturas {
+  font-size: 1em;
+}
